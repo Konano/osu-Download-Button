@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         osu! Download from mirror
+// @name         osu! Download Button
 // @description  Download beatmaps from some mirror sites (Bloodcat, Mengsky and inso)
 // @author       Konano
 // @include     *osu.ppy.sh/s*
