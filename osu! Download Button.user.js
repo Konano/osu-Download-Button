@@ -6,7 +6,8 @@
 // @include     *osu.ppy.sh/b*
 // @include     *osu.ppy.sh/p/beatmap?b=*
 // @include     *osu.ppy.sh/p/beatmap?s=*
-// @version     2.0
+// @version     2.1
+// @namespace https://greasyfork.org/users/88022
 // ==/UserScript==
 
 (function($) {
@@ -19,7 +20,7 @@
 		location.href = 'http://osu.mengsky.net/api/download/' + $('.bmt:last').attr('src').match(/\d+/);
 	}
     document.getElementById('mirrorInso').onclick = function() {
-		location.href = 'http://inso.link/?m='+$('.bmt:last').attr('src').match(/\d+/);
+		location.href = 'http://inso.link/?source=OsuDownloadButtom&m='+$('.bmt:last').attr('src').match(/\d+/);
 	}
     document.getElementById('mirrorBloodcat').onclick = function() {
 		location.href = 'http://bloodcat.com/osu/m/'+$('.bmt:last').attr('src').match(/\d+/);
